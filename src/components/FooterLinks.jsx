@@ -7,55 +7,87 @@ import Logo from "../images/logo.png";
 
 export const FooterLinks = () => {
   return (
-    <footer className="footer-links">
-      <div className="footer-logo">
-        <BrandLogo src={Logo} />
+    <footer className="footer_links_container">
+      <div className="footer_logo">
+        <BrandLogo src={Logo} name="TravelWiser" />
       </div>
-      <div className="site-navigation">
+      <div className="footer_site_navigation">
         <li>
-          <a href="/">Home</a>
+          <a className="footer_site_navigation_link" href="/">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/">Find destination</a>
+          <a className="footer_site_navigation_link" href="/">
+            Find destination
+          </a>
         </li>
         <li>
-          <a href="/">Plan your trip</a>
+          <a className="footer_site_navigation_link" href="/">
+            Plan your trip
+          </a>
         </li>
         <li>
-          <a href="/">Blog</a>
+          <a className="footer_site_navigation_link" href="/">
+            Blog
+          </a>
         </li>
         <li>
-          <a href="/">Community </a>
+          <a className="footer_site_navigation_link" href="/">
+            Community{" "}
+          </a>
         </li>
       </div>
 
-      <div className="site-navigation">
+      <div className="footer_site_navigation">
         <li>
-          <a href="/">About Us</a>
+          <a className="footer_site_navigation_link" href="/">
+            About Us
+          </a>
         </li>
         <li>
-          <a href="/">Privacy Policy</a>
+          <a className="footer_site_navigation_link" href="/">
+            Privacy Policy
+          </a>
         </li>
         <li>
-          <a href="/">Careers</a>
+          <a className="footer_site_navigation_link" href="/">
+            Careers
+          </a>
         </li>
       </div>
-      <div className="social-media">
-        <a href="/">
+      <div className="social_media_links_block">
+        <a className="social_media_link" href="/">
           {" "}
-          <img alt="Facebook Icon" src={FacebookIcon}></img>
+          <img
+            className="facebook_icon"
+            alt="Facebook Icon"
+            src={FacebookIcon}
+          ></img>
         </a>
-        <a href="/">
+        <a className="social_media_link" href="/">
           {" "}
-          <img alt="Twitter Icon" src={TwitterIcon}></img>
+          <img
+            className="twitter_icon"
+            alt="Twitter Icon"
+            src={TwitterIcon}
+          ></img>
         </a>
-        <a href="/">
+        <a className="social_media_link" href="/">
           {" "}
-          <img alt="Instagram Icon" src={InstagramIcon}></img>
-          <a href="/">
-            {" "}
-            <img alt="Google plus Icon" src={GooglePlusIcon}></img>
-          </a>
+          <img
+            className="instagram_icon"
+            alt="Instagram Icon"
+            src={InstagramIcon}
+          ></img>
+        </a>
+        <a className="social_media_link" href="/">
+          {" "}
+          <img
+            className="google_plus_icon"
+            alt="Google plus Icon"
+            src={GooglePlusIcon}
+          ></img>
         </a>
       </div>
     </footer>

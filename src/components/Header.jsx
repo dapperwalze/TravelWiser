@@ -1,13 +1,13 @@
-import { ActionButton } from "./ActionButton";
+import { Button } from "./Button";
 import { BrandLogo } from "./BrandLogo";
 import Logo from "../images/logo.png";
 
 export const Header = () => {
   return (
     <header className="header">
-      <BrandLogo src={Logo} />
+      <BrandLogo src={Logo} name="TravelWiser" />
 
-      <nav id="top-nav">
+      <nav className="header_nav">
         <ul>
           <li>
             <a href="/">Find destination</a>
@@ -23,8 +23,8 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
-      <ActionButton className="login-button" text="Login" href="/" />
-      <ActionButton className="sign-up-button" text="Sign up" href="/" />
+      <Button className="btn login_button" text="Login" href="/" />
+      <Button className="btn sign_up_button" text="Sign up" href="/" />
     </header>
   );
 };
