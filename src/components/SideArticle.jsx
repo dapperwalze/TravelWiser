@@ -9,8 +9,8 @@ export const SideArticle = (props) => {
         ></img>
       </div>
       <div className="article_information side_article_details_block">
-        <h2 className="article_title">
-          <a className="side_article_title" href={props.url}>
+        <h2 className="article_title side_article_title">
+          <a className="side_article_link" href={props.url}>
             {props.title}
           </a>
         </h2>

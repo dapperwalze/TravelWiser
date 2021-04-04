@@ -57,38 +57,40 @@ export const FooterLinks = () => {
         </li>
       </div>
       <div className="social_media_links_block">
-        <a className="social_media_link" href="/">
-          {" "}
-          <img
-            className="facebook_icon"
-            alt="Facebook Icon"
-            src={FacebookIcon}
-          ></img>
-        </a>
-        <a className="social_media_link" href="/">
-          {" "}
-          <img
-            className="twitter_icon"
-            alt="Twitter Icon"
-            src={TwitterIcon}
-          ></img>
-        </a>
-        <a className="social_media_link" href="/">
-          {" "}
-          <img
-            className="instagram_icon"
-            alt="Instagram Icon"
-            src={InstagramIcon}
-          ></img>
-        </a>
-        <a className="social_media_link" href="/">
-          {" "}
-          <img
-            className="google_plus_icon"
-            alt="Google plus Icon"
-            src={GooglePlusIcon}
-          ></img>
-        </a>
+        <div className="social_media_icon_container">
+          <a className="social_media_link" href="/">
+            {" "}
+            <img
+              className="facebook_icon"
+              alt="Facebook Icon"
+              src={FacebookIcon}
+            ></img>
+          </a>
+          <a className="social_media_link" href="/">
+            {" "}
+            <img
+              className="twitter_icon"
+              alt="Twitter Icon"
+              src={TwitterIcon}
+            ></img>
+          </a>
+          <a className="social_media_link" href="/">
+            {" "}
+            <img
+              className="instagram_icon"
+              alt="Instagram Icon"
+              src={InstagramIcon}
+            ></img>
+          </a>
+          <a className="social_media_link" href="/">
+            {" "}
+            <img
+              className="google_plus_icon"
+              alt="Google plus Icon"
+              src={GooglePlusIcon}
+            ></img>
+          </a>
+        </div>
       </div>
     </footer>
   );

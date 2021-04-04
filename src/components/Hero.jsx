@@ -24,8 +24,8 @@ export const Hero = () => {
           />
         </div>
       </div>
+      <Ellipse className="top_ellipse" />
       <div className="hero_right_block">
-        <Ellipse className="top_ellipse" />
         <img
           className="hero_right_block_image"
           alt="A mini yellow bus on a road trip"
