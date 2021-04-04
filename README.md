@@ -1,3 +1,15 @@
+# TravelWiser
+
+TravelWiser is a new platform connecting the travel community & has
+all the functions you need from a travel app. \
+
+## Tips On How TO View This Project
+
+Clone the repo \
+Run npm install \
+Run npm start \
+Visit localhost://3000 to view the application. \
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
