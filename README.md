@@ -8,7 +8,7 @@ all the functions you need from a travel app. \
 Clone the repo \
 Run npm install \
 Run npm start \
-Visit localhost://3000 to view the application. \
+Visit localhost://3000 to view the application.
 
 # Getting Started with Create React App
 
